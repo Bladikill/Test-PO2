@@ -4,50 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prothésiste Ongulaire</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Ajoutez votre fichier CSS ici -->
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .header { background-color: #ffc0cb; text-align: center; padding: 10px; }
+        .nav { display: flex; justify-content: center; background-color: #f2f2f2; padding: 10px; }
+        .nav a { margin: 0 15px; text-decoration: none; color: black; }
+        .content { padding: 20px; }
+        .gallery img { width: 100%; max-width: 300px; margin: 10px; }
+        .footer { background-color: #f2f2f2; text-align: center; padding: 10px; margin-top: 20px; }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Prothésiste Ongulaire</h1>
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#galerie">Galerie</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="accueil">
-            <h2>Bienvenue chez Prothésiste Ongulaire</h2>
-            <p>Nous vous offrons des services de prothésie ongulaire professionnels dans une ambiance relaxante et apaisante.</p>
-        </section>
+<div class="header">
+    <h1>Bienvenue chez Votre Prothésiste Ongulaire</h1>
+</div>
 
-        <section id="services">
-            <h2>Nos Services</h2>
-            <ul>
-                <li>Manucure</li>
-                <li>Pédicure</li>
-                <li>Extensions d'ongles</li>
-                <li>Vernis semi-permanent</li>
-            </ul>
-        </section>
+<div class="nav">
+    <a href="#services">Services</a>
+    <a href="#gallery">Galerie</a>
+    <a href="#testimonials">Témoignages</a>
+    <a href="#contact">Contact</a>
+</div>
 
-        <section id="galerie">
-            <h2>Galerie</h2>
-            <!-- Ajoutez ici des images de vos créations -->
-        </section>
+<div class="content">
+    <h2 id="services">Nos Services</h2>
+    <p>Description des services offerts, comme la pose de faux ongles, manucure, pédicure, etc.</p>
 
-        <section id="contact">
-            <h2>Contactez-nous</h2>
-            <p>Pour prendre rendez-vous, contactez-nous au <a href="tel:0123456789">01 23 45 67 89</a> ou par email à <a href="mailto:contact@prothesiste-ongulaire.com">contact@prothesiste-ongulaire.com</a>.</p>
-        </section>
-    </main>
+    <h2 id="gallery">Galerie</h2>
+    <div class="gallery">
+        <!-- Insérez vos images ici -->
+        <img src="image1.jpg" alt="Ongles design 1">
+        <img src="image2.jpg" alt="Ongles design 2">
+        <!-- Plus d'images -->
+    </div>
 
-    <footer>
-        <p>© 2023 Prothésiste Ongulaire</p>
-    </footer>
+    <h2 id="testimonials">Témoignages</h2>
+    <p>"Le meilleur service de prothésie ongulaire en ville! - Client satisfait"</p>
+    <!-- Plus de témoignages -->
+
+    <h2 id="contact">Contactez-Nous</h2>
+    <p>Téléphone : 123-456-7890</p>
+    <p>Email : contact@votreprothesiste.com</p>
+    <!-- Autres informations de contact -->
+</div>
+
+<div class="footer">
+    <p>&copy; 2023 Votre Prothésiste Ongulaire</p>
+</div>
+
 </body>
 </html>
